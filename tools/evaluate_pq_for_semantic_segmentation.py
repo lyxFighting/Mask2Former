@@ -140,7 +140,7 @@ def main():
     parser = default_argument_parser()
     args = parser.parse_args()
 
-    _root = os.getenv("DETECTRON2_DATASETS", "datasets")
+    _root = os.getenv("DETECTRON2_DATASETS", "data")
     json_file = args.json_file
 
     with open(json_file) as f:

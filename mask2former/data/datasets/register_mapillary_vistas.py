@@ -503,5 +503,5 @@ def register_all_mapillary_vistas(root):
         )
 
 
-_root = os.getenv("DETECTRON2_DATASETS", "datasets")
+_root = os.getenv("DETECTRON2_DATASETS", "data")
 register_all_mapillary_vistas(_root)

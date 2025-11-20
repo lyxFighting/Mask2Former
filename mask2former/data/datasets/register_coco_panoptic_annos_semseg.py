@@ -177,5 +177,5 @@ def register_all_coco_panoptic_annos_sem_seg(root):
         )
 
 
-_root = os.getenv("DETECTRON2_DATASETS", "datasets")
+_root = os.getenv("DETECTRON2_DATASETS", "data")
 register_all_coco_panoptic_annos_sem_seg(_root)
